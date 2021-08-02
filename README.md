@@ -38,7 +38,7 @@ Responsive design and mobile first approach allow for ease of access across devi
 
 <img src="https://i.ibb.co/9ZVVdwX/snake-game-viewport.png" alt="snake-game-viewport">
 
-Here is a working live [demonstration](https://mrblach.github.io/snake-finder/)
+Here is a working live [demonstration](https://mrblach.github.io/snake-game/)
 
 ### Steps To Execute This App
 - Download the entire code
