@@ -6,7 +6,7 @@ import { update as updateFood, draw as drawFood } from './food.js'
 
 import { outsideGrid } from './grid.js'
 
-alert('\nWelcome to Snake In The Grass!\n\nEat as many eggs as you can, but don\'t hit your own tail or go out of bounds.')
+alert('\nWelcome to Snake In The Grass!\n\nEat as many eggs as you can without hitting your own tail or leaving the yard.')
 // set speed of UI rendering
 let lastRenderTime = 0
 
@@ -19,7 +19,7 @@ const gameBoard = document.getElementById('game-board')
 function main(currentTime) {
   if (gameOver) {
     if (confirm('GAME OVER. Press ok to reset.')) {
-      window.location = '/'
+      location.reload();
     }
     return
   }

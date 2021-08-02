@@ -16,7 +16,7 @@ export function update() {
   addSegments()
 
   const inputDirection = getInputDirection()
-  for (let i = snakeBody.length - 2; i >= 0; i--) {
+  for (let i = snakeBody.length - 4; i >= 0; i--) {
     snakeBody[i + 1] = { ...snakeBody[i] }
   }
 
