@@ -89,4 +89,4 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ### You may also like..
 
-+ [Fetch Example API](https://github.com/MRBlach/fetch-example-api "Fetch Example API") - Fetch example of API data
++ [Number Guessing Game](https://github.com/MRBlach/nuber-guesser "Number Guesser") - Number guessing game
