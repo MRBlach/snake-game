@@ -89,4 +89,4 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ### You may also like..
 
-+ [Number Guessing Game](https://github.com/MRBlach/nuber-guesser "Number Guesser") - Number guessing game
++ [Number Guessing Game](https://github.com/MRBlach/nuber-guesser "Number Guesser") - Try to beat the computer.
