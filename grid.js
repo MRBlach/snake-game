@@ -1,4 +1,4 @@
-
+// Declare size of gameboard
 const GRID_SIZE = 20
 
 export function randomGridPosition() {
@@ -8,6 +8,7 @@ export function randomGridPosition() {
   }
 }
 
+// Define grid boundary
 export function outsideGrid(position) {
   return (
     position.x < 1 || position.x > GRID_SIZE || 
