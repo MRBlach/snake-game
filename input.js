@@ -1,7 +1,8 @@
-
+// Define index of start position
 let inputDirection = { x: 0, y: 0 }
 let lastInputDirection = { x: 0, y: 0}
 
+// Listen for keydown of each arrow
 window.addEventListener('keydown', e => {
   switch (e.key) {
     case 'ArrowUp':
