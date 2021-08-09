@@ -1,11 +1,10 @@
-
-// export allows the data following to be used in conjunction with the app.js file
+// Export allows the data following to be used in conjunction with the app.js file
 
 import { getInputDirection } from "./input.js"
 
-// set speed at which the snake moves
+// Set speed at which the snake moves
 export const SNAKE_SPEED = 4
-// set position of the snake at initial starting point, in this case the very center of the gameboard
+// Set position of the snake at initial starting point, in this case the very center of the gameboard
 // the gameboard size is determined in the css styling of index.html
 const snakeBody = [
   { x: 11, y: 11}
@@ -24,7 +23,7 @@ export function update() {
   snakeBody[0].y += inputDirection.y
 }
 
-// render the gameboard 
+// Render the gameboard 
 export function draw(gameBoard) {
   snakeBody.forEach(segment => {
     const snakeElement = document.createElement('div')
